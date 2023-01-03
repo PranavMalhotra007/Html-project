@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="registration.css" rel="stylesheet">
+</head>
+<body>
+    <form class="box">
+            <h1>Enter your details</h1>
+            <input type="text" placeholder="Enter your name" class="usid">
+            <input type="text" placeholder="Email ID" class="usid"> 
+            <input type="text" placeholder="Enter your contact no." class="usid" id="contct">
+            <input type="text" placeholder="Enter your address" class="usid" id="adrs">
+            <input type="passward" placeholder="Enter your passward" class="usid" id="paswrd">
+          <a href="index.html"> <input type="submit" onclick="msg()" value="login" class="button"></a>
+    </form>
+    <script>
+        function msg()
+        {
+            let submit=document.getElementsByClassName("button");
+             decision=confirm("Do you really want to submit?");
+        }
+        // function msg()
+        // {
+        //     let hide=document.getElementById("adrs");
+        //     if(hide.style.display != 'none')
+        //     {
+        //     hide.style.display="none";
+        //     }
+        //     else{
+        //         hide.style.display='block'; 
+        //     }
+        // }
+
+    </script>
+</body>
+</html>
